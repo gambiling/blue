@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif ;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height:100vh;
+background: #333;
+overflow: hidden;
+}
+.container 
+{
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 80px;
+}
+.btn
+{
+position: relative;
+width: 240px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(0,0,0,0.2);
+border-radius: 100px;
+cursor: pointer;
+overflow: hidden;
+font-size: 2em;
+transition: 0.5s;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+color: #0944e5;
+transition: 3s;
+}
+.btn:hover
+{
+filter: drop-shadow(0 0 10px #0944e5)drop-shadow(0 0 30px #0944e5);
+letter-spacing: 0.2em;
+color: #fff;
+}
+.btn span
+{
+    position: absolute;
+top: 0;
+width: 2px;
+height: 100%;
+background:#0944e5 ;
+pointer-events: none;
+transition: transform 0.2s ease-in-out;
+z-index: -1;
+transform: scaleY(0);
+transform-origin: bottom;
+}
+.btn:hover span
+{
+    transform: scaleY(1);
+    transform-origin: top;
+}
+.btn span:nth-child(even)
+{
+    transform-origin: top; 
+}
+.btn:hover span:nth-child(even)
+{
+    transform-origin: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
